@@ -1,24 +1,38 @@
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { jsx } from '@emotion/react'
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Info from './components/info';
+import ChatRoom from './components/chat-room';
+import * as mq from './styles/media-queries';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      css={{
+        [mq.sm]: {
+          maxWidth: 540
+        },
+        [mq.md]: {
+          maxWidth: 720
+        },
+        [mq.lg]: {
+          maxWidth: 960
+        },
+        [mq.xl]: {
+          maxWidth: 1140
+        },
+        margin: '0 auto',
+        paddingTop: 20
+      }}
+    >
+      <Info />
+      <div css={{
+        marginTop: 16
+      }}>
+        <ChatRoom />
+      </div>
     </div>
   );
 }
