@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-chat-graphql/static/css/main.31e538f3.css",
+    "main.js": "/react-chat-graphql/static/js/main.ce6360da.js",
+    "static/js/787.1d4f8603.chunk.js": "/react-chat-graphql/static/js/787.1d4f8603.chunk.js",
+    "index.html": "/react-chat-graphql/index.html",
+    "main.31e538f3.css.map": "/react-chat-graphql/static/css/main.31e538f3.css.map",
+    "main.ce6360da.js.map": "/react-chat-graphql/static/js/main.ce6360da.js.map",
+    "787.1d4f8603.chunk.js.map": "/react-chat-graphql/static/js/787.1d4f8603.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31e538f3.css",
+    "static/js/main.ce6360da.js"
+  ]
+}
