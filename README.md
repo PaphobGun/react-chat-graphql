@@ -8,7 +8,7 @@
 
 You can visit here: https://paphobgun.github.io/react-chat-graphql/
 
-#๒ Test Specifications
+## Test Specifications
 
 - This is a single page application and users can talk with others.
 - User can choose your username from three of them (Left-upper side of page)
