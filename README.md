@@ -8,6 +8,8 @@
 - Emotion.sh
 - Apollo Client
 
+** I do not own the graphql API just only work on frontend **
+
 You can visit here: https://paphobgun.github.io/react-chat-graphql/
 
 ## Test Specifications
