@@ -1,9 +1,11 @@
 # React Chat App with Graphql
 
+![screenshot](https://serving.photos.photobox.com/788176489cbcda7a8a47eee95a6d73eee4c2ff05a65ae7ea122124cfe360e54836f8ebae.jpg)
+
 ## Techonology Stack
 
 - React (TypeScript)
-- Emotion.sh 
+- Emotion.sh
 - Apollo Client
 
 You can visit here: https://paphobgun.github.io/react-chat-graphql/
